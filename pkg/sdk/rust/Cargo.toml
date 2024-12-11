@@ -1,0 +1,16 @@
+[package]
+name = "openapi"
+version = "0.14.0"
+authors = ["info@abstractmachines.fr"]
+description = "This is the Users Server based on the OpenAPI 3.0 specification.  It is the HTTP API for managing platform users. You can now help us improve the API whether it's by making changes to the definition itself or to the code. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "
+license = "Apache 2.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "^1.0"
+serde_repr = "^0.1"
+url = "^2.5"
+uuid = { version = "^1.8", features = ["serde", "v4"] }
+reqwest = { version = "^0.12", features = ["json", "multipart"] }
+tokio = { version = "1", features = ["full"] }
