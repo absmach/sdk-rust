@@ -1,0 +1,21 @@
+[workspace]
+members = [
+    "auth",
+    "bootstrap",
+    "certs",
+    "channels",
+    "clients",
+    "domains",
+    "groups",
+    "http",
+    "invitations",
+    "journal",
+    "notifiers",
+    "provision",
+    "readers",
+    "twins",
+    "users"
+
+]
+
+tokio = { version = "1", features = ["full"] }

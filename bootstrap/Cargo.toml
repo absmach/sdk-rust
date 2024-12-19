@@ -1,0 +1,15 @@
+[package]
+name = "bootstrap-openapi"
+version = "0.15.1"
+authors = ["info@abstractmachines.fr"]
+description = "HTTP API for managing platform clients configuration. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "
+license = "Apache 2.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "^1.0"
+serde_repr = "^0.1"
+url = "^2.5"
+uuid = { version = "^1.8", features = ["serde", "v4"] }
+reqwest = { version = "^0.12", features = ["json", "multipart"] }
