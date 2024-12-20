@@ -1,5 +1,5 @@
 [package]
-name = "bootstrap-openapi"
+name = "Bootstrap"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for managing platform clients configuration. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

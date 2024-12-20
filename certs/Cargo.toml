@@ -1,5 +1,5 @@
 [package]
-name = "certs-openapi"
+name = "Certs"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for Certs service Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

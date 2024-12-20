@@ -1,5 +1,5 @@
 [package]
-name = "notifiers-openapi"
+name = "Notifiers"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for Notifiers service. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

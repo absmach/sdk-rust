@@ -3,6 +3,187 @@
 version = 4
 
 [[package]]
+name = "Auth"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Bootstrap"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Certs"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Channels"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Clients"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Domains"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Groups"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Http"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Invitations"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Journal"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Notifiers"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Provision"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Readers"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Twins"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+ "uuid",
+]
+
+[[package]]
+name = "Users"
+version = "0.15.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "tokio",
+ "url",
+ "uuid",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -22,18 +203,6 @@ name = "atomic-waker"
 version = "1.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
-
-[[package]]
-name = "auth-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
 
 [[package]]
 name = "autocfg"
@@ -69,18 +238,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b048fb63fd8b5923fc5aa7b340d8e156aec7ec02f0c78fa8a6ddc2613f6f71de"
 
 [[package]]
-name = "bootstrap-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "bumpalo"
 version = "3.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -102,46 +259,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "certs-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
-
-[[package]]
-name = "channels-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
-name = "clients-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
 
 [[package]]
 name = "core-foundation"
@@ -171,18 +292,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "domains-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "encoding_rs"
 version = "0.8.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -205,6 +314,34 @@ checksum = "33d852cb9b869c2a9b3df2f71a3074817f01e1844f839a144f5fcef059a4eb5d"
 dependencies = [
  "libc",
  "windows-sys 0.59.0",
+]
+
+[[package]]
+name = "examples-openapi"
+version = "0.15.1"
+dependencies = [
+ "Auth",
+ "Bootstrap",
+ "Certs",
+ "Channels",
+ "Clients",
+ "Domains",
+ "Groups",
+ "Http",
+ "Invitations",
+ "Journal",
+ "Notifiers",
+ "Provision",
+ "Readers",
+ "Twins",
+ "Users",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "tokio",
+ "url",
+ "uuid",
 ]
 
 [[package]]
@@ -300,18 +437,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f"
 
 [[package]]
-name = "groups-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "h2"
 version = "0.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -368,18 +493,6 @@ dependencies = [
  "http",
  "http-body",
  "pin-project-lite",
-]
-
-[[package]]
-name = "http-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
 ]
 
 [[package]]
@@ -610,18 +723,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "invitations-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "ipnet"
 version = "2.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -632,18 +733,6 @@ name = "itoa"
 version = "1.0.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d75a2a4b1b190afb6f5425f10f6a8f959d2ea0b9c2b1d79553551850539e4674"
-
-[[package]]
-name = "journal-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
 
 [[package]]
 name = "js-sys"
@@ -746,18 +835,6 @@ dependencies = [
  "security-framework",
  "security-framework-sys",
  "tempfile",
-]
-
-[[package]]
-name = "notifiers-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
 ]
 
 [[package]]
@@ -876,36 +953,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "provision-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "quote"
 version = "1.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5b9d34b8991d19d98081b46eacdd8eb58c6f2b201139f7c5f643cc155a633af"
 dependencies = [
  "proc-macro2",
-]
-
-[[package]]
-name = "readers-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
 ]
 
 [[package]]
@@ -1360,18 +1413,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b"
 
 [[package]]
-name = "twins-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "url",
- "uuid",
-]
-
-[[package]]
 name = "unicase"
 version = "2.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1398,19 +1439,6 @@ dependencies = [
  "form_urlencoded",
  "idna",
  "percent-encoding",
-]
-
-[[package]]
-name = "users-openapi"
-version = "0.15.1"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "serde_repr",
- "tokio",
- "url",
- "uuid",
 ]
 
 [[package]]

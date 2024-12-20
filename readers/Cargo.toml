@@ -1,5 +1,5 @@
 [package]
-name = "readers-openapi"
+name = "Readers"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for reading messages. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

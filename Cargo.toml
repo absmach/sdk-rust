@@ -6,6 +6,7 @@ members = [
     "channels",
     "clients",
     "domains",
+    "examples",
     "groups",
     "http",
     "invitations",
@@ -18,4 +19,3 @@ members = [
 
 ]
 
-tokio = { version = "1", features = ["full"] }

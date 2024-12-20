@@ -1,5 +1,5 @@
 [package]
-name = "twins-openapi"
+name = "Twins"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for managing digital twins and their states. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

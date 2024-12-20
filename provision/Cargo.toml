@@ -1,5 +1,5 @@
 [package]
-name = "provision-openapi"
+name = "Provision"
 version = "0.15.1"
 authors = ["info@abstracmachines.fr"]
 description = "HTTP API for Provision service Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "

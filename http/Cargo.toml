@@ -1,5 +1,5 @@
 [package]
-name = "http-openapi"
+name = "Http"
 version = "0.15.1"
 authors = ["info@abstractmachines.fr"]
 description = "HTTP API for sending messages through communication channels. Some useful links: - [The SuperMQ repository](https://github.com/absmach/supermq) "
