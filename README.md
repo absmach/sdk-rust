@@ -1,8 +1,8 @@
-# `sdk_rust` SDK
+# SuperMQ Rust SDK
 
 ## Introduction
 
-Welcome to the `sdk_rust` SDK! This SDK provides various functionalities, including APIs, models, and configuration management that you can integrate into your Rust projects. This guide will show you how to add the SDK to your project and use it effectively.
+Welcome to the SuperMQ Rust SDK! This SDK provides various functionalities, including APIs, models, and configuration management that you can integrate into your Rust projects. This guide will show you how to add the SDK to your project and use it effectively.
 
 
 ## Adding the SDK to Your Project
@@ -15,7 +15,7 @@ Follow these steps to add `sdk_rust` as a dependency:
 
    ```toml
    [dependencies]
-   sdk_rust = { git = "https://github.com/your-username/supermq", path = "sdk_rust" }
+   sdk_rust = { git = "https://github.com/absmach/sdk-rust", branch = "rust-sdk-dorcas" }
 Replace your-username with your actual GitHub username or organization name, and sdk_rust with the path to the SDK crate within the supermq repository if it's not in the root.
 
 2. **Build and run your project:**
