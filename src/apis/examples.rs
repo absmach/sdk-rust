@@ -3,10 +3,18 @@
 use crate::models::*;
 use serde_json::json;
 
-use crate::apis::users_api::*;
+//use crate::apis::users_api::*;
 
-async fn run_example() {
+//use super::users_api::create_user;
+
+use crate::apis::users_api::create_user;
+
+use super::configuration::Configuration;
+
+
+pub async fn run_example() {
     // Construct the configuration with the actual API base URL and authorization token
+    println!("I am inside run_example in examples.rs");
     let mut config = Configuration::new();
     config.base_path = "http://localhost:9002".to_string();
     config.bearer_access_token = Some("Put your bearer token here".to_string());
